@@ -47,27 +47,13 @@ git clone https://github.com/Om-Rajpure/Ai-Tools-Website.git
 cd Ai-Tools-Website
 ```
 
-### 2️⃣ Install dependencies
-
-```bash
-# For frontend
-cd frontend
-npm install
-
-# For backend
-cd ../backend
-npm install
-```
-
 ### 3️⃣ Setup Environment Variables
 
 Create a `.env` file in `backend/` with:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
-RAZORPAY_KEY=your_razorpay_key
-RAZORPAY_SECRET=your_razorpay_secret
-DATABASE_URL=your_database_url
+Clerk authenitication key
+Clerk payment key
 ```
 
 ### 4️⃣ Run the project
